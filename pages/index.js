@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Intro from "../components/Intro";
+import About from "../components/About";
+import Instagram from "../components/Instagram";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <Intro />
+        <About />
+        <Instagram />
       </main>
 
       <footer className={styles.footer}>
